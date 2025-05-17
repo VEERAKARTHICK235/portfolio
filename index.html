@@ -10,8 +10,8 @@
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
   <body>
     <!-- Header Section -->
     <header class="header">
@@ -42,46 +42,49 @@
 
     <main class="main">
      <!-- HOME SECTION -->
-<section class="home bd_grid" id="home">
-  <div class="home_data" data-aos="fade-down">
-    <h1 class="home_title">
-      Hi, <br />I'm <span class="home_title-color">Karthickkumar</span><br />AI Engineer
-    </h1>
-    <a href="#contact" class="button">Contact</a>
-  </div>
+<section class="home" id="home">
+  <div class="home_container">
+    
+    <!-- PHOTO CENTERED -->
+    <div class="home_img" data-aos="fade-down">
+      <img src="Karthick.png" alt="Karthickkumar's Photo" />
+    </div>
 
-  <!-- PHOTO HERE -->
-  <div class="home_img" data-aos="fade-up">
-    <img src="Karthick.png" alt="Karthickkumar's Photo" />
-  </div>
+    <!-- TEXT CENTERED BELOW -->
+    <div class="home_text" data-aos="fade-up">
+      <h1 class="home_title">
+        Hi, I'm <span class="home_title-color">Karthickkumar</span>
+      </h1>
+      <h3 class="home_subtitle">AI Engineer</h3>
+    </div>
 
-  <div class="home_social">
-    <a href="https://github.com/VEERAKARTHICK235" class="home_social-icon" data-aos="fade-down" data-aos-delay="250">
-      <i class="bx bxl-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/karthickkumar-s-b04a10348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="home_social-icon" data-aos="fade-down" data-aos-delay="550">
-      <i class="bx bxl-linkedin-square"></i>
-    </a>
-    <a href="https://www.instagram.com/the_ai_veera.com_/?__pwa=1" class="home_social-icon" data-aos="fade-down" data-aos-delay="250">
-      <i class="bx bxl-instagram"></i>
-    </a>
-    <a href="https://x.com/VEERAKARTH235?t=KcgqEhmptobfpkSblQxo9A&s=09" class="home_social-icon" data-aos="fade-down" data-aos-delay="550">
-      <i class="bx bxl-twitter"></i>
-    </a>
+    <!-- SOCIAL ICONS CENTERED -->
+    <div class="home_social" data-aos="fade-up">
+      <a href="https://github.com/VEERAKARTHICK235" class="home_social-icon"><i class="bx bxl-github"></i></a>
+      <a href="https://www.linkedin.com/in/karthickkumar-s-b04a10348" class="home_social-icon"><i class="bx bxl-linkedin-square"></i></a>
+      <a href="https://www.instagram.com/the_ai_veera.com_/" class="home_social-icon"><i class="bx bxl-instagram"></i></a>
+      <a href="https://x.com/VEERAKARTH235" class="home_social-icon"><i class="bx bxl-twitter"></i></a>
+    </div>
+
+    <!-- CONTACT BUTTON -->
+    <div class="home_button" data-aos="fade-up">
+      <a href="My Resume.pdf" class="button glow" target="_blank">My Resume</a>    </div>
+
   </div>
 </section>
+
 
 
       <!-- ABOUT SECTION -->
 <section class="about section" id="about">
   <h2 class="section-title" data-aos="fade-down">About</h2>
 
-  <div class="about_container bd_grid">
+  <div class="about_container">
     <div class="about_img" data-aos="fade-down" data-aos-delay="50">
-      <img src="about.png" alt="Karthickkumar Photo" class="your-image-class" />
+      <img src="about.png" alt="Karthickkumar Photo" />
     </div>
 
-    <div>
+    <div class="about_content">
       <h2 class="about_subtitle" data-aos="fade-down" data-aos-delay="350">
         I'm Karthickkumar
       </h2>
@@ -92,134 +95,154 @@
   </div>
 </section>
 
+             <!-- SKILL SECTION -->
 
-      <!-- SKILLS SECTION -->
+
       <section class="skills section" id="skills">
-        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+  <h2 class="section-title" data-aos="fade-down">Skills</h2>
 
-        <div class="skills_container bd_grid">
-          <div class="skills_img" data-aos="fade-down" data-aos-delay="450">
-            <img src="Skills.png" alt="Skills Photo" class="your-image-class" />
-          </div>
-          <div>
-            <h2
-              class="skills_subtitle"
-              data-aos="fade-down"
-              data-aos-delay="250"
-            >
-              Professional Skills
-            </h2>
-            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
-              Proficient in Excel,Participated in multiple hackathons,Expertise in MongoDB and MySQL,Completed AI-related Internships,Experienced in solving Real-World problems.
-            </p>
-            <!-- SKILLS PYTHON -->
-            <div class="skills_data" data-aos="fade-right">
-              <div class="skills_name">
-                <i class='bx bxl-python' ></i>
-                <span class="skill_name">Python</span>              
-              </div>
+  <div class="skills_container">
+    <div class="skills_img" data-aos="fade-down" data-aos-delay="100">
 
-              <div><span class="skill_percentage">95%</span></div>
+      <p class="skills_text">
+        I develop intelligent systems, responsive websites, and scalable apps using modern technologies and AI techniques.
+      </p>
 
-              <div class="skill_bar skill_python"></div>
-            </div>
+      <div class="skills_buttons">
+        <!-- First Row -->
+        <a class="skill_button" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML">
+          <i class='bx bxl-html5'></i>
+          <span>HTML</span>
+        </a>
 
-            <!-- SKILLS JAVA -->
-            <div class="skills_data" data-aos="fade-right">
-              <div class="skills_name">
-                <i class='bx bxl-java' ></i>
-                <span class="skill_name">Java</span>             
-              </div>
+        <a class="skill_button" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS">
+          <i class='bx bxl-css3'></i>
+          <span>CSS</span>
+        </a>
 
-              <div><span class="skill_percentage">85%</span></div>
+        <a class="skill_button" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript">
+          <i class='bx bxl-javascript'></i>
+          <span>JavaScript</span>
+        </a>
 
-              <div class="skill_bar skill_java"></div>
-            </div>
+        <a class="skill_button" href="https://react.dev/" target="_blank" title="React">
+          <i class='bx bxl-react'></i>
+          <span>React</span>
+        </a>
 
-            <!-- SKILLS HTML -->
-            <div class="skills_data" data-aos="fade-right">
-              <div class="skills_name">
-                <i class='bx bxl-html5'></i>
-               <span class="skill_name">HTML5</span>
-              </div>
+        <a class="skill_button" href="https://nodejs.org/en" target="_blank" title="Node.js">
+          <i class='bx bxl-nodejs'></i>
+          <span>Node.js</span>
+        </a>
 
-              <div><span class="skill_percentage">95%</span></div>
+        <a class="skill_button" href="https://www.mongodb.com/" target="_blank" title="MongoDB">
+          <i class='bx bxl-mongodb'></i>
+          <span>MongoDB</span>
+        </a>
 
-              <div class="skill_bar skill_html"></div>
-            </div>
+        <!-- Second Row -->
+        <a class="skill_button" href="https://www.mysql.com/" target="_blank" title="MySQL">
+          <i class='bx bxs-data'></i>
+          <span>MySQL</span>
+        </a>
 
-            <!-- SKILLS UI/UX -->
-            <div class="skills_data" data-aos="fade-right" >
-              <div class="skills_name">
-                <i class='bx bx-pencil' ></i> 
-                <span class="skill_name">UI / UX</span>
-              </div>
+        <a class="skill_button" href="https://www.python.org/" target="_blank" title="Python">
+          <i class='bx bxl-python'></i>
+          <span>Python</span>
+        </a>
 
-              <div><span class="skill_percentage">85%</span></div>
+        <a class="skill_button" href="https://www.java.com/" target="_blank" title="Java">
+          <i class='bx bxl-java'></i>
+          <span>Java</span>
+        </a>
 
-              <div class="skill_bar skill_ui"></div>
-            </div>
-          </div>
+        <a class="skill_button" href="https://www.php.net/" target="_blank" title="PHP">
+          <i class='bx bxl-php'></i>
+          <span>PHP</span>
+        </a>
 
-          <div data-aos="fade-left" data-aos-delay="350">
-            
-          </div>
-        </div>
-      </section>
-      <!-- CERTIFICATES SECTION -->
-<section class="certificates section" id="certificates">
-  <h2 class="section-title" data-aos="fade-down">Certificates</h2>
+        <a class="skill_button" href="https://flutter.dev/" target="_blank" title="Flutter">
+          <i class='bx bxl-flutter'></i>
+          <span>Flutter</span>
+        </a>
 
-  <div class="certificates_container bd_grid">
-      <div class="certificate_item" data-aos="fade-up">
-          <img src="assets/img/certificate1.jpg" alt="Certificate 1">
-          <h3>Employability Skills</h3>
-          <p>Issued by: ESEC</p>
+        <a class="skill_button" href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" title="C Language">
+          <i class='bx bx-code-alt'></i>
+          <span>C</span>
+        </a>
       </div>
-
-      <div class="certificate_item" data-aos="fade-up" data-aos-delay="100">
-          <img src="assets/img/certificate2.jpg" alt="Certificate 2">
-          <h3>National Level Hackathon</h3>
-          <p>Issued by: SIET</p>
-      </div>
-
-      <div class="certificate_item" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/img/certificate3.jpg" alt="Certificate 3">
-          <h3>Gen-AI with cloud</h3>
-          <p>Issued by: KEC</p>
-      </div>
-
-      <div class="certificate_item" data-aos="fade-up" data-aos-delay="300">
-          <img src="assets/img/certificate4.jpg" alt="Certificate 4">
-          <h3>Artificial Intelligence</h3>
-          <p>Issued by: ESEC</p>
-      </div>
-
-      <div class="certificate_item" data-aos="fade-up" data-aos-delay="400">
-          <img src="assets/img/certificate5.jpg" alt="Certificate 5">
-          <h3>Technical Quiz</h3>
-          <p>Issued by: SCE</p>
-      </div>
-  
-  <div class="certificate_item" data-aos="fade-up" data-aos-delay="500">
-          <img src="assets/img/certificate6.jpg" alt="Certificate 6">
-          <h3>AI Conclave Hackathon</h3>
-          <p>Issued by: KEC</p>
-      </div>
-
-      <div class="certificate_item" data-aos="fade-up" data-aos-delay="600">
-          <img src="assets/img/certificate7.jpg" alt="Certificate 7">
-          <h3>AI & ML</h3>
-          <p>Issued by: ESEC</p>
-      </div>
-
-      <div class="certificate_item" data-aos="fade-up" data-aos-delay="700">
-          <img src="assets/img/certificate8.jpg" alt="Certificate 8">
-          <h3>AI & ML</h3>
-          <p>Issued by: ESEC</p>
-      </div>
+    </div>
   </div>
 </section>
+
+
+
+      
+<!-- CERTIFICATES SECTION -->
+<section class="certificates section" id="certificates">
+  <h2 class="section-title">Certificates</h2>
+
+  <div class="certificates_container bd_grid cert-grid">
+    <div class="certificate_item cert-card" onclick="openLightbox(0)">
+      <img src="assets/img/Oracle.jpg" alt="Oracle APEX Cloud Developer" />
+      <h3>Oracle APEX Cloud Developer</h3>
+      <p>Issued by: Oracle University</p>
+    </div>
+
+    <div class="certificate_item cert-card" onclick="openLightbox(1)">
+      <img src="assets/img/IOT.jpg" alt="Internet Of Things" />
+      <h3>Internet Of Things <br> (Elite 73%)</h3>
+      <p>Issued by: Indian Institute Of Technology</p>
+    </div>
+
+    <div class="certificate_item cert-card" onclick="openLightbox(2)">
+      <img src="assets/img/certificate2.jpg" alt="National Level Hackathon" />
+      <h3>National Level Hackathon</h3>
+      <p>Issued by: SIET</p>
+    </div>
+
+    <div class="certificate_item cert-card" onclick="openLightbox(3)">
+      <img src="assets/img/certificate6.jpg" alt="AI Conclave Hackathon" />
+      <h3>AI Conclave Hackathon</h3>
+      <p>Issued by: KEC</p>
+    </div>
+
+    <div class="certificate_item cert-card" onclick="openLightbox(4)">
+      <img src="assets/img/certificate4.jpg" alt="AI Based Wearable Robotic Exoskeleton" />
+      <h3>AI Based Wearable Robotic Exoskeleton For Rehabilitation</h3>
+      <p>Issued by: ESEC</p>
+    </div>
+
+    <div class="certificate_item cert-card" onclick="openLightbox(5)">
+      <img src="assets/img/certificate3.jpg" alt="Gen-AI with Cloud" />
+      <h3>Gen-AI with Cloud</h3>
+      <p>Issued by: KEC</p>
+    </div>
+
+    <div class="certificate_item cert-card" onclick="openLightbox(6)">
+      <img src="assets/img/certificate1.jpg" alt="Employability Skills" />
+      <h3>Employability Skills</h3>
+      <p>Issued by: ESEC</p>
+    </div>
+
+    <div class="certificate_item cert-card" onclick="openLightbox(7)">
+      <img src="assets/img/certificate5.jpg" alt="AI Foundations Associate" />
+      <h3>AI Foundations Associate</h3>
+      <p>Issued by: Oracle University</p>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <span class="close" onclick="closeLightbox(event)">&times;</span>
+    <span class="nav-btn prev" onclick="changeSlide(-1)">&#10094;</span>
+    <img id="lightboxImage" src="" alt="Certificate Preview" />
+    <span class="nav-btn next" onclick="changeSlide(1)">&#10095;</span>
+  </div>
+</section>
+
+
+
 
 
 
@@ -251,70 +274,59 @@
       </div>
     </div>
 
-    <!-- Project 3 -->
-    <div class="project_card">
-      <img src="./assets/img/ChatBot.jpg" alt="Farm2Bag Chatbot" class="project_img">
-      <div class="project_content">
-        <h3 class="project_title">Farm2Bag Chatbot</h3>
-        <p class="project_desc">Smart chatbot for Agri-delivery app with product recommendations, tracking, and multilingual support.</p>
-        <p class="project_tech">Tech: HTML CSS JS, Python Flask, GEMINI API</p>
-        <a href="https://github.com/VEERAKARTHICK235/Farm2BagChatBot" target="_blank" class="project_link">View on GitHub</a>
-      </div>
-    </div>
+  
+    <!-- Project 4 -->
+<div class="project_card">
+  <img src="./assets/img/AI_Virtual_Mouse.jpg" alt="AI Virtual Mouse" class="project_img">
+  <div class="project_content">
+    <h3 class="project_title">AI Virtual Mouse</h3>
+    <p class="project_desc">AI-powered virtual mouse controlled by hand gestures. Supports cursor control, left/right click via finger pinches, and double-click when all fingers are visible.</p>
+    <p class="project_tech">Tech: Python, OpenCV, MediaPipe, AutoPy</p>
+    <a href="https://github.com/VEERAKARTHICK235/AI_Virtual_Mouse" target="_blank" class="project_link">View on GitHub</a>
+  </div>
+</div>
+
 
     <!-- Add more projects as needed -->
   </div>
 </section>
 
 
-      <!-- CONTACT SECTION -->
-<section class="contact section" id="contact">
-  <h2 class="section-title" data-aos="fade-down">Contact</h2>
+      <!-- Contact Section -->
+<section id="contact" style="text-align: center; padding: 40px 20px; background-color: white;">
+  <h2 style="color: rgb(192,38,92); font-weight: 700; margin-bottom: 10px;">Contact</h2>
+  <hr style="width: 60px; border: 2px solid rgb(192,38,92); margin: 0 auto 30px;">
 
-  <div class="contact_container bd_grid">
-      <form id="contactForm" class="contact_form">
-          <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Name"
-              class="control_input"
-              data-aos="fade-right"
-              data-aos-delay="250"
-              required
-          />
-          <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email"
-              class="control_input"
-              data-aos="fade-right"
-              data-aos-delay="300"
-              required
-          />
-          <textarea
-              id="message"
-              name="message"
-              cols="30"
-              rows="5"
-              class="control_input"
-              data-aos="fade-right"
-              data-aos-delay="400"
-              placeholder="Your Message"
-              required
-          ></textarea>
+  <form class="contact_form" style="max-width: 400px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+  <input 
+    type="text" 
+    name="name" 
+    placeholder="Name" 
+    required 
+    style="padding: 10px; border-radius: 6px; border: none; font-size: 1rem; box-shadow: 0 0 8px rgb(192,38,92);">
+  <input 
+    type="email" 
+    name="email" 
+    placeholder="Email" 
+    required 
+    style="padding: 10px; border-radius: 6px; border: none; font-size: 1rem; box-shadow: 0 0 8px rgb(192,38,92);">
+  <textarea 
+    name="message" 
+    placeholder="Your Message" 
+    rows="5" 
+    required 
+    style="padding: 10px; border-radius: 6px; border: none; font-size: 1rem; box-shadow: 0 0 8px rgb(192,38,92); resize: vertical;"></textarea>
+  <button 
+    type="submit" 
+    style="padding: 12px; background-color:rgb(192,38,92); color: white; font-weight: 700; border: none; border-radius: 30px; cursor: pointer; box-shadow: 0 0 15px rgb(192,38,92);">
+    Send
+  </button>
+</form>
+<hr class="custom-hr">
 
-          <input
-              type="submit"
-              value="Send"
-              class="control_button button"
-              data-aos="fade-right"
-              data-aos-delay="450"
-          />
-      </form>
-  </div>
+
 </section>
+
 
 <!-- Include EmailJS Library -->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -348,48 +360,27 @@
   <p class="footer_title" data-aos="fade-down">Karthickkumar</p>
 
   <div class="footer_socials">
-    <a
-      href="https://www.linkedin.com/in/karthickkumar-s-b04a10348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      class="footer_icon"
-      data-aos="fade-down"
-      data-aos-delay="550"
-    >
+    <a href="https://www.linkedin.com/in/karthickkumar-s-b04a10348" class="footer_icon" data-aos="fade-down" data-aos-delay="550">
       <i class="bx bxl-linkedin-square"></i>
     </a>
-    
-    <a
-      href="https://www.instagram.com/the_ai_veera.com_/?__pwa=1"
-      class="footer_icon"
-      data-aos="fade-down"
-      data-aos-delay="250"
-    >
+    <a href="https://www.instagram.com/the_ai_veera.com_/" class="footer_icon" data-aos="fade-down" data-aos-delay="250">
       <i class="bx bxl-instagram"></i>
     </a>
-    
-    <a
-      href="https://x.com/VEERAKARTH235?t=KcgqEhmptobfpkSblQxo9A&s=09"
-      class="footer_icon"
-      data-aos="fade-down"
-      data-aos-delay="550"
-    >
-    <i class="bx bxl-twitter"></i>
-
-  </a>
-    
-    <a
-      href="https://github.com/VEERAKARTHICK235"
-      class="footer_icon"
-      data-aos="fade-down"
-      data-aos-delay="250"
-    >
+    <a href="https://x.com/VEERAKARTH235" class="footer_icon" data-aos="fade-down" data-aos-delay="550">
+      <i class="bx bxl-twitter"></i>
+    </a>
+    <a href="https://github.com/VEERAKARTHICK235" class="footer_icon" data-aos="fade-down" data-aos-delay="350">
       <i class="bx bxl-github"></i>
     </a>
   </div>
+ 
 
-  <p data-aos="fade-down" data-aos-delay="650">
-    &#169; 2027 copyright all right reserved
-  </p>
+
+
+
+  <p data-aos="fade-down" data-aos-delay="650">&#169; 2027 copyright all right reserved</p>
 </footer>
+
 
     </main>
     
