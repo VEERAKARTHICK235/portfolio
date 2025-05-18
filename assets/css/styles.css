@@ -8,12 +8,17 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  
+  font-family: 'Poppins', inter;
   color: #e0e6f0;
   line-height: 1.6;
   font-size: 16px;
+  background-color: white; /* Optional: deep space-like background */
+  margin: 0;
+  padding: 0;
 }
+
+
+
 
 /* Grid container for bd_grid */
 .bd_grid {
@@ -140,7 +145,7 @@ body {
   height: 300px;
   border-radius: 50%;
   border: 4px solid white;
-  box-shadow: 0 0 30px rgb(195, 38, 90);
+  box-shadow: 0 0 40px rgb(185, 2, 63);
   margin-bottom: 20px;
 }
 
@@ -150,7 +155,7 @@ body {
 }
 
 .home_title-color {
-  color: rgb(195, 38, 90);
+  color: rgb(185, 2, 63);
 }
 
 .home_subtitle {
@@ -176,7 +181,7 @@ body {
 }
 
 .home_button .button {
-  background-color: rgb(192, 38, 90);
+  background-color: rgb(185, 2, 63);
   color: white;
   padding: 10px 25px;
   border-radius: 30px;
@@ -211,12 +216,13 @@ body {
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 8px 25px rgb(192, 38, 90);
+  border: 4px solid white;
+  box-shadow: 0 8px 20px rgb(185, 2, 63);
 }
 
 .about_subtitle {
   font-size: 2rem;
-  color: rgb(192, 38, 90);
+  color: rgb(185, 2, 63);
   margin-bottom: 1rem;
 }
 
@@ -230,7 +236,7 @@ body {
 /* Section Title */
 .section-title {
   font-size: 2.5rem;
-  color: rgb(192, 38, 90);
+  color: rgb(185, 2, 63);
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -250,7 +256,7 @@ body {
   border-radius: 20px;
   padding: 2rem;
   backdrop-filter: blur(10px);
-  box-shadow: 0 8px 25px rgb(195, 38, 90);
+  box-shadow: 0 8px 25px rgb(185, 2, 63);
   max-width: 900px;
   width: 100%;
 }
@@ -294,7 +300,7 @@ body {
 /* Icon Inside Button */
 .skill_button i {
   font-size: 1.8rem;
-  color: rgb(192,38,90);
+  color: rgb(185, 2, 63);
 }
 
 /* Hover — slightly stronger glow */
@@ -351,7 +357,7 @@ body {
 
 .certificate_item:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 25px rgb(195, 38, 90);
+  box-shadow: 0 8px 25px rgb(185, 2, 63);
 }
 
 .certificate_item img {
@@ -368,7 +374,7 @@ body {
 }
 
 .certificate_item p {
-  color: rgb(192, 38, 90);
+  color: rgb(185, 2, 63);
   font-size: 0.9rem;
   margin: 0;
 }
@@ -393,7 +399,7 @@ body {
   max-width: 80vw;
   max-height: 80vh;
   border-radius: 8px;
-  box-shadow: 0 0 25px rgb(192,38,90);
+  box-shadow: 0 0 25px rgb(185, 2, 63);
   transition: transform 0.6s ease-in-out;
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -416,7 +422,7 @@ body {
 }
 
 .close:hover {
-  color: rgb(192, 38, 90);
+  color: rgb(185, 2, 63);
 }
 
 .nav-btn {
@@ -438,7 +444,7 @@ body {
 
 .nav-btn:hover {
   background: white;
-  color: rgb(192, 38, 90);
+  color: rgb(185, 2, 63);
 }
 
 /* 3D Cube Animation classes */
@@ -472,7 +478,7 @@ body {
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 5px 15px palevioletred;
+  box-shadow: 0 5px 15px rgb(185, 2, 63);
   transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -504,7 +510,7 @@ body {
 
 .project_desc {
   font-size: 0.95rem;
-  color: rgb(192,38,90);
+  color: rgb(185, 2, 63);
   margin-bottom: 1rem;
   flex-grow: 1;
 }
@@ -529,7 +535,7 @@ body {
 }
 
 .project_link:hover {
-  background: rgb(192, 38, 90);
+  background: rgb(185, 2, 63);
 }
 
 /* FOOTER */
@@ -538,7 +544,7 @@ body {
   text-align: center;
   padding: 1rem 0;
   font-size: 0.9rem;
-  color: rgb(192,38,90);
+  color: rgb(185, 2, 63);
   margin-top: 4rem;
   user-select: none;
 }
@@ -600,21 +606,21 @@ body {
 .custom-hr {
   margin-top: 330px;       /* Moves the line down quite a bit */
   margin-bottom: -100px;    /* Negative margin pulls following content up */
-  background-color: rgb(192, 38, 90);
+  background-color: rgb(185, 2, 63);
   height: 2px;
   width: 100%;
   border: none;
-  box-shadow: 0 2px 8px rgb(195, 38, 90);
+  box-shadow: 0 2px 8px rgb(185, 2, 63);
   position: relative;      /* To ensure z-index works if needed */
   z-index: 1000;
 }
 
 .footer_title {
-  color: rgb(195, 38, 90);
+  color: rgb(185, 2, 63);
 }
 
 .footer_icon i {
-  color: rgb(195, 38, 90);
+  color: rgb(185, 2, 63);
   transition: color 0.3s ease;
 }
 
